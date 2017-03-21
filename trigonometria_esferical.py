@@ -7,5 +7,5 @@ import math as m
 
 L = input('Introduce la distancia (en Kms): ')
 response = 6373-(6373*(m.cos(m.asin(float(L)/6373))))
-response = response * 1000
+response *= 1000
 print 'El horizonte se esconde : ' + str(response) + ' metros en una esfera'
